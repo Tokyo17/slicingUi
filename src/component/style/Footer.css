@@ -1,0 +1,56 @@
+.footer{
+    margin-top: 180px;
+    background-color: #FBF1A9;
+    height: 430px;
+    font-family: 'Rubik', sans-serif;
+}
+.footer p{
+    font-size: 13px;
+}
+.containerFooter{
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.kiri{
+    flex: 1;
+}
+.kiri p{
+    margin-top: 20px;
+    width: 370px;
+}
+.kiri .bingkaiImgFooter{
+    width:150px;
+    height: 150px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.kiri img{
+width: 300px;
+margin-left: 30px;
+}
+
+
+
+.kanan{
+flex: 1;
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+align-items: flex-end;
+justify-content: center;
+}
+
+.kanan p{
+    margin-top: 30px;
+}
+.kanan p:first-child{
+    margin-top: 0px;
+}

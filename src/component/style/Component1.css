@@ -1,0 +1,51 @@
+.component1{
+    background-color:white;
+    /* border:  1px solid salmon; */
+    height: 350px;
+    font-family: 'Open Sans', sans-serif;
+}
+.containerComponent1{
+    display: flex;
+    height: 100%;
+    margin: 0 50px;
+}
+.miring{
+    font-style: italic;
+}
+
+.textComponent1{
+    /* border: 1px solid; */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 100%; */
+}
+.textComponent1 h1{
+    margin-left: -70px;
+    right:  0;
+}
+.textComponent1 p{
+    margin-top: 10px;
+    width: 430px;
+    font-size: 17px;
+}
+.imgComponent1{
+    /* border: 1px solid salmon; */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.imgComponent1 img{
+    width: 500px;
+    transform: translateY(30px);
+}
+
+
+
+
+

@@ -1,0 +1,41 @@
+.card{
+    margin-top: 80px;
+    height: 400px;
+    /* border: 1px solid pink; */
+    font-family: 'Open Sans', sans-serif;
+}
+.containerCard{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 50px;
+    justify-content: space-between;
+}
+.coreCard{
+    /* border: 1px solid salmon; */
+    width: 200px;
+    height:380px;
+}
+
+.textCoreCard{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.textCoreCard p{
+    width: 150px;
+    margin-top: 5px;
+}
+
+.imgCoreCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    /* border: 1px solid blue; */
+}
+.imgCoreCard img{
+width: 200px;
+}

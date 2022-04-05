@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    background-color: #CDECFF;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+    height: 100%;
+}
+.navLink{
+    display: flex;  
+    /* border: 1px solid pink; */
+    width: 300px;
+    justify-content: space-between;
+}
+.navLink a{
+    color: black;
+}

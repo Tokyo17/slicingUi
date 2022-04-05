@@ -1,0 +1,44 @@
+.quote{
+    height: 300px;
+    /* border: 1px solid pink; */
+    font-family: 'Open Sans', sans-serif;
+}
+.containerQuote{
+    margin: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.containerQuote h2{
+    font-size: 20px;
+    }
+.textQuote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.textQuote span{
+    font-weight: 700;
+    
+}
+.textQuote p{
+    margin-top: 30px;
+    font-size: 18px;
+    width: 500px;
+    font-style: italic;
+}
+.question{
+    display: flex;
+    margin-top: 30px;
+}
+.question> p{
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 3px;
+}
+.red{
+    color: red;
+}
