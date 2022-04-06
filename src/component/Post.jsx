@@ -4,6 +4,7 @@ import "./style/Post.css"
 import cat from "./img/cat.png"
 import kanan from "./img/kanan2.png"
 import kiri from "./img/kiri2.png"
+import avatar from "./img/avatar.png"
 import footCat from "./img/footCat.png"
 
 import Nav from "./Nav";
@@ -33,6 +34,9 @@ const Post=(props)=>{
             <div className="containerPost">
             {data.map((v)=>{
                 return <div className="cardPost" key={v.id}> 
+                         <div className="avatar">
+                            <img src={avatar}/>
+                         </div>
                           <div className="containerCardPost">
                               <div className="titleCardPost">
                                     <p>{v.title}</p>

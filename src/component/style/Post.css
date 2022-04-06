@@ -7,7 +7,7 @@
 
 }
 .containerPost{
-    margin: 0 50px;
+    margin: 0 40px;
     display:  flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -15,12 +15,31 @@
 .cardPost{
     border-radius: 10px;
     width: 380px;
-    margin-top: 40px;
+    
     background-color: white;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin:0 13px;
+    margin-top: 40px;
 }
 .containerCardPost{
     margin: 10px;
+}
+.avatar{
+    position: absolute;
+    /* border: 1px solid pink; */
+    width: 57px;
+    height: 57px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(-20px,-10px);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+.avatar img{
+    transform: translateY(5px);
 }
 .titleCardPost{
     display: flex;
