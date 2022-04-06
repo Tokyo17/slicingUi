@@ -34,7 +34,7 @@ const Post=(props)=>{
             </div>
             <div className="containerPost">
             {data.map((v)=>{
-                return <div className="cardPost" key={v.id}> 
+                return <div data-aos="flip-right" className="cardPost" key={v.id}> 
                          <div className="avatar">
                             <img src={v.id%2 != 0 ?avatar: avatar2}/>
                          </div>
