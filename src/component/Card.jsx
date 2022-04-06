@@ -4,7 +4,7 @@ import ilustCard2 from "./img/ilustCard2.png"
 import ilustCard3 from "./img/ilustCard3.png"
 const Card=()=>{
     return(
-        <div className="card">
+        <div className="Card">
             <div className="containerCard">
                 <div className="coreCard">
                     <div className="imgCoreCard">

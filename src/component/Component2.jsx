@@ -5,7 +5,7 @@ import ilus3 from  "./img/ilus3.png"
 
 const Component2=()=>{
     return(
-        <div className="component1">
+        <div className="component2">
             <div className="containerComponent2">
                 <div className="textComponent2">
                         <h1>Together we can recover your pain</h1>

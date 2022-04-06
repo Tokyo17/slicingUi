@@ -49,4 +49,43 @@
 
 
 
+@media  (max-width: 1000px) {
+    .component2{
+        height: 500px;
+        /* margin-top: 170px; */
+        /* border: 1px solid salmon; */
+    }
+    .containerComponent2{
+        flex-direction: column;
+    }
+.textComponent2{
+    text-align: center;
+    /* border: 1px solid; */
+    order: 2;
+    align-items: center;
+}
+.textComponent2 h1{
+    transform: none;
+}
+.textComponent2 p{
+    margin: 0px;
+    transform: none;
+}
+    
+.imgComponent2 {
+    order: 1;
+}
+    
+    }
+    
+
+    @media  (max-width: 500px) {
+        .component2 img{
+            width: 350px;
+            /* transform: translateY(90px); */
+        }
+        .textComponent2 p{
+            width: 350px;
+        }
+    }
 

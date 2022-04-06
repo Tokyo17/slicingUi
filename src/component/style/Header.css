@@ -1,6 +1,6 @@
 .header{
     background-color:#CDECFF;
-    height: 500px;
+    height: 550px;
     /* border: 1px solid pink;    */
     font-family: 'Open Sans', sans-serif;
 }
@@ -15,6 +15,7 @@
 }
 
 .textHeader{
+    margin-top: -40px;
     flex: 1;
     /* border:  1px solid ; */
     height: 100%;
@@ -62,3 +63,41 @@
 
 
 
+@media  (max-width: 1000px) {
+    .header{
+        height: 600px;
+    }
+    .containerHeader {
+      flex-direction: column;
+    }
+    .textHeader{
+        order: 2;
+        align-items: center;
+        text-align: center;
+    }
+    .textHeader > p{
+        margin-top: 0;
+    }
+    
+    .imgHeader{
+        order: 1;
+    }
+    .imgHeader img{
+        width: 300px;
+        margin-top: 20px;
+    }
+.headerButton{
+    margin-top: 5px;
+}
+
+
+  }
+
+
+  @media  (max-width: 500px) {
+    .textHeader p{
+        font-size: 17px;
+        width: 350px;
+    }
+
+  }

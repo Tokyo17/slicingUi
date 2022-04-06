@@ -1,18 +1,17 @@
-.footer{
-    margin-top: 180px;
+.footers{
+    margin-top: 80px;
     background-color: #FBF1A9;
-    height: 430px;
+    height: 520px;
     font-family: 'Rubik', sans-serif;
 }
-.footer p{
-    font-size: 13px;
+.footers p{
+    font-size: 17px;
 }
 .containerFooter{
     margin: 0 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
 }
 
 .kiri{
@@ -22,17 +21,19 @@
     margin-top: 20px;
     width: 370px;
 }
-.kiri .bingkaiImgFooter{
+
+
+.bingkaiImgFooter{
     width:150px;
     height: 150px;
-    /* border: 1px solid; */
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    /* border: 1px solid; */
 }
 
-.kiri img{
+.bingkaiImgFooter img{
 width: 300px;
 margin-left: 30px;
 }
@@ -43,9 +44,9 @@ margin-left: 30px;
 flex: 1;
 display: flex;
 flex-direction: column;
-/* justify-content: center; */
 align-items: flex-end;
 justify-content: center;
+transform: translateY(130px);
 }
 
 .kanan p{
@@ -54,3 +55,50 @@ justify-content: center;
 .kanan p:first-child{
     margin-top: 0px;
 }
+
+.bawah{
+    transform: translateY(-50px);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 50px;
+}
+.bawah p{
+    margin-top: 20px;
+}
+
+
+
+@media  (max-width: 630px) {
+    .footers{
+        height: 670px;
+    }
+    .containerFooter{
+        flex-direction: column;
+        align-items: flex-start;
+        transform: translateY(40px);
+        margin: 0 30px;
+    }
+    .kanan{
+        align-items: flex-start;
+        transform: translateY(0px);
+    }
+    .kanan p{
+        margin: 0px;
+        margin-bottom: 10px;
+        
+    }
+    .bawah{
+        transform: translateY(30px);
+        margin: 0 30px;
+    }
+
+  }
+
+  @media  (max-width: 410px) {
+    .kiri p{
+        width: 330px;
+    }
+  }

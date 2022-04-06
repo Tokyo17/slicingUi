@@ -46,6 +46,33 @@
 }
 
 
+@media  (max-width: 1000px) {
+   .component1{
+        height: 550px;
+    }
+.containerComponent1{
+    flex-direction: column;
+}
+.textComponent1{
+    text-align: center;
+}
+.textComponent1 h1{
+    margin-left: 0px;
+}
+.imgComponent1 img{
+    transform: translateY(40px);
+}
 
+}
+
+@media  (max-width: 500px) {
+    .component1 img{
+        width: 350px;
+        transform: translateY(90px);
+    }
+    .textComponent1 p{
+        width: 350px;
+    }
+}
 
 

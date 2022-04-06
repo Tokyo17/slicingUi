@@ -9,17 +9,23 @@ html{
 a{
     text-decoration: none;
 }
-.nav{
-    background-color: #CDECFF;
-    height: 50px;
-    font-family: 'Roboto', sans-serif;
+.blue{
+    background-color: #CDECFF; 
+    font-family: 'Roboto', sans-serif; 
 }
-.container{
+.container-fluid{
+    margin: 0 50px;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.containerNav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 50px;
     height: 100%;
+    width: 100%;
 }
 .navLink{
     display: flex;  
@@ -27,6 +33,38 @@ a{
     width: 300px;
     justify-content: space-between;
 }
-.navLink a{
+.navbar{
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
+    /* height: 0px; */
+    z-index: 99999;
+}
+.navbar a{
     color: black;
 }
+
+.Link{
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.Link a{
+    color: black;
+}
+
+@media  (max-width: 700px) {
+.container-fluid{
+    margin: 0px;
+}
+
+}
+
+@media  (max-width: 991px) {
+    .Link{
+        margin-left: 0px;
+    } 
+}
+
+
