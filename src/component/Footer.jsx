@@ -1,6 +1,14 @@
 import rehat from"./img/image.png"
 import "./style/Footer.css"
 const Footer=()=>{
+
+
+    let date =new Date()
+    // console.log(date.getFullYear)
+    let newDate = new Date()
+// let date = newDate.getDate();
+let month = newDate.getMonth() + 1;
+let year = newDate.getFullYear();
     return(
         <div className="footers">
             <div className="containerFooter">
@@ -24,7 +32,7 @@ const Footer=()=>{
                 <div className="bingkaiImgFooter">
                             <img src={rehat}/>
                 </div>  
-                <p>&copy; 2022 Rehat</p>
+                <p>&copy;{year}  Rehat</p>
             </div>
         </div>
     )
